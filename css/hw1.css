@@ -1,16 +1,8 @@
+
+
 body{
 	padding:1%;
 	margin:1%;
-}
-
-p{
-	background:rgb(232, 231, 227);
-	color:rgb(59, 69, 59);
-	padding:2%;
-	text-indent:1ch;
-	box-shadow:-2px 2px 2px rgb(199, 198, 197);
-	border-radius:2px;
-	line-height:150%;
 }
 
 header{
@@ -20,11 +12,22 @@ header{
 	padding:2%;
 }
 
+p{
+	background:rgb(232, 231, 227);
+	color:rgb(59, 69, 59);
+	padding:2%;
+	margin:2%;
+	margin-bottom:7%;
+	text-indent:1ch;
+	box-shadow:-2px 2px 2px rgb(199, 198, 197);
+	border-radius:2px;
+	line-height:150%;
+}
+
 nav{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	margin-top:2%;
 }
 
 nav a{
@@ -38,14 +41,11 @@ nav a{
 	text-decoration:none;
 	border-radius:5px;
 	display:inline-block;
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
-	font-variant:small-caps;
-	font-weight:600;
 	transition-delay:0.2s;
 	transition:transform;
-	transition-duration:0.3s;
+	transition-duration:0.5s;
 	transition-timing-function:ease-in-out;
-	transform:translatey(0px);
+	transform:scale(1);
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	font-variant:small-caps;
 	font-weight:600;
@@ -55,9 +55,11 @@ nav a:hover{
 	transition:transform;
 	transition-duration:0.3s;
 	transition-timing-function:ease-in-out;
-	transform:translatey(-10px);
+	transform:scale(1.1);
 }
 
+nav a:hover:after{
+	padding:10%;
 }
 
 h1{
@@ -71,6 +73,7 @@ h1{
 	text-transform:uppercase;
 	font-size:7ch;
 	margin-top:0%;
+	padding:1%;
 	letter-spacing:0.5ch;
 	word-spacing:3ch;
 	transform:skewX(-15deg);
@@ -78,6 +81,7 @@ h1{
 
 h2{
 	color:#000000;
+	padding:3%;
 }
 
 section{
@@ -104,7 +108,7 @@ nav>.active{
 
 .left{
 	width:20%;
-	height:100vh;
+	height:750px;
 	padding:2%;
 	display:inline-block;
 	float:left;
@@ -117,10 +121,10 @@ nav>.active{
 }
 
 table{
-	line-height:250%;
+	line-height:200%;
 	margin-left:auto;
 	margin-right:auto;
-	margin-bottom:10%;
+	margin-bottom:2%;
 	font-family:Arial, Helvetica, sans-serif;
 }
 th{
@@ -131,7 +135,8 @@ th{
 	-ms-background:linear-gradient(45deg, rgb(103, 134, 17),rgb(133, 173, 22),rgb(103, 134, 17));
 	border:1px solid rgb(72, 94, 11);
 	border-bottom:3px solid rgb(72, 94, 11);
-	border-radius: 5px 5px 0 0;
+	border-radius: 4px 4px 0 0;
+	line-height:150%;
 	color:#FFFFFF;
 	min-width:150px;
 }
@@ -163,9 +168,11 @@ tr:not(:first-child):hover{
 	transition-timing-function:ease-out;
 	opacity:1;
 	transform:translateX(10px);
-	box-shadow:-1px 4px 3px rgba(0, 0, 0, 0.4);
+	box-shadow:-3px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
-tr{
-	border:0px solid #FFFFFF;
+p::first-letter{
+	font-size:4ch;
+	color:rgb(54, 145, 18);
+	font-weight:900;
 }
