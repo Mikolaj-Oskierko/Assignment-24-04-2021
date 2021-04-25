@@ -5,6 +5,12 @@ body{
 	margin:1%;
 }
 
+p{
+	background:rgb(232, 231, 227);
+	padding:1%;
+	text-indent:1ch;
+}
+
 header{
 	background-image:url("../images/flywheel.jpg");
 	background-size:cover;
