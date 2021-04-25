@@ -41,19 +41,19 @@ nav a{
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	font-variant:small-caps;
 	font-weight:600;
-	/*transition-delay:0.2s;
+	transition-delay:0.2s;
 	transition:transform;
 	transition-duration:0.3s;
 	transition-timing-function:ease-in-out;
-	transform:scale(1);*/
+	transform:scale(1);
 }
 
-/*nav a:hover{
+nav a:hover{
 	transition:transform;
 	transition-duration:0.3s;
 	transition-timing-function:ease-in-out;
 	transform:scale(1.1);
-}*/
+}
 
 }
 
@@ -67,7 +67,8 @@ h1{
 	2px -2px 2px #000000;
 	text-transform:uppercase;
 	font-size:7ch;
-	margin-top:0%;margin-bottom:2%;
+	margin-top:0%;
+	margin-bottom:2%;
 	letter-spacing:0.5ch;
 	word-spacing:3ch;
 	transform:skewX(-15deg);
