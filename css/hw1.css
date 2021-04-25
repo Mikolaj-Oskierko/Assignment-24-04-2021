@@ -18,7 +18,6 @@ header{
 	background-size:cover;
 	background-color:#575A5E;
 	padding:2%;
-	margin-bottom:1%;
 }
 
 nav{
@@ -103,7 +102,7 @@ nav>.active{
 
 .left{
 	width:20%;
-	height:100%;
+	height:100vh;
 	padding:2%;
 	display:inline-block;
 	float:left;
