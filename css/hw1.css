@@ -164,5 +164,5 @@ tr:not(:first-child):hover{
 	transition-timing-function:ease-out;
 	opacity:1;
 	transform:translateX(10px);
-	box-shadow:-1px 4px 5px rgba(0, 0, 0, 0.5);
+	box-shadow:-2px 4px 4px rgba(0, 0, 0, 0.4);
 }
