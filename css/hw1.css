@@ -1,11 +1,6 @@
-html{
-	height:100%;
-}
-
 body{
 	padding:1%;
 	margin:1%;
-	height:100%
 }
 
 p{
@@ -47,14 +42,14 @@ nav a{
 	font-weight:600;
 	/*transition-delay:0.2s;
 	transition:transform;
-	transition-duration:0.5s;
+	transition-duration:0.3s;
 	transition-timing-function:ease-in-out;
 	transform:scale(1);*/
 }
 
 /*nav a:hover{
 	transition:transform;
-	transition-duration:0.5s;
+	transition-duration:0.3s;
 	transition-timing-function:ease-in-out;
 	transform:scale(1.1);
 }*/
