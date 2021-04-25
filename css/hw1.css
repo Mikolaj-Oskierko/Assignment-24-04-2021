@@ -43,7 +43,7 @@ nav a{
 	display:inline-block;
 	transition-delay:0.2s;
 	transition:transform;
-	transition-duration:0.3s;
+	transition-duration:0.5s;
 	transition-timing-function:ease-in-out;
 	transform:translatey(0px);
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -53,7 +53,7 @@ nav a{
 
 nav a:hover{
 	transition:transform;
-	transition-duration:0.3s;
+	transition-duration:0.5s;
 	transition-timing-function:ease-in-out;
 	transform:scale(1.1);
 }
