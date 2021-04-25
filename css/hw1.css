@@ -46,7 +46,7 @@ nav a{
 	transition:transform;
 	transition-duration:0.5s;
 	transition-timing-function:ease-in-out;
-	transform:translatey(0px);
+	transform:scale(1);
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	font-variant:small-caps;
 	font-weight:600;
